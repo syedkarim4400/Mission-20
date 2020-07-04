@@ -1,0 +1,101 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LoginPage.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Home Page",
+  "description": "",
+  "id": "home-page",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Verify user can login successfully",
+  "description": "",
+  "id": "home-page;verify-user-can-login-successfully",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 2,
+      "name": "@test"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "Launch \"\u003cURL\u003e\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "click on Signin link",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 7,
+  "name": "click on Signin Button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "enter username and password",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "click Signin button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "Verify user can login successfully",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cURL\u003e",
+      "offset": 8
+    }
+  ],
+  "location": "LoginPageSteps.launch_url(String)"
+});
+formatter.result({
+  "duration": 2808112600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageSteps.click_on_Signin_link()"
+});
+formatter.result({
+  "duration": 727605300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageSteps.click_on_Signin_Button()"
+});
+formatter.result({
+  "duration": 1662844000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageSteps.enter_username_and_password()"
+});
+formatter.result({
+  "duration": 1109216700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageSteps.click_Signin_button()"
+});
+formatter.result({
+  "duration": 176661400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageSteps.Verify_user_can_login_successfully()"
+});
+formatter.result({
+  "duration": 2628056500,
+  "status": "passed"
+});
+});
